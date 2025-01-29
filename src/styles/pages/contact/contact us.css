@@ -1,1 +1,105 @@
-/*# sourceMappingURL=contact us.css.map */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #181818;
+}
+.contact-container .contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 3rem;
+}
+.contact-container .contact-info {
+  width: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.contact-container .contact-info h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.contact-container .contact-info h1 span {
+  color: orange;
+}
+.contact-container .contact-info p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.contact-container .contact-info .contact-details {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact-container .contact-info .social-icons {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1rem;
+}
+.contact-container .contact-info .social-icons svg {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.contact-container .contact-info .social-icons svg:hover {
+  transform: scale(1.2);
+}
+.contact-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #222;
+  padding: 2.5rem;
+  border-radius: 8px;
+  width: 100%;
+}
+.contact-container .contact-form input,
+.contact-container .contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.contact-container .contact-form button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #ff6600, #ff3300);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+.contact-container .contact-form button:hover {
+  background: linear-gradient(90deg, #ff3300, #ff6600);
+}
+
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+    padding: 3rem;
+  }
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}/*# sourceMappingURL=contact us.css.map */

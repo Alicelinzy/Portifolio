@@ -1,0 +1,123 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 2rem;
+    background-color: #181818;
+  
+    .contact-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      gap: 3rem; 
+    }
+  
+    .contact-info {
+        width: 100%;
+        color: #fff;
+        font-size: 1.5rem; 
+  
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+  
+        span {
+          color: orange;
+        }
+      }
+  
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+  
+      .contact-details {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+  
+      .social-icons {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        display: flex;
+        gap: 1rem;
+  
+        svg {
+          cursor: pointer;
+          transition: transform 0.3s ease-in-out;
+  
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+    //   flex: 1;
+      background-color: #222;
+      padding: 2.5rem; // More padding for balance
+      border-radius: 8px;
+      width: 100%;
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        background-color: #333;
+        color: #fff;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+      }
+  
+      button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #fff;
+        background: linear-gradient(90deg, #ff6600, #ff3300);
+        border: none;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        border-radius: 5px;
+  
+        &:hover {
+          background: linear-gradient(90deg, #ff3300, #ff6600);
+        }
+      }
+    }
+  }
+  
+  // Ensure the container spacing matches the header spacing
+  @media (max-width: 1024px) {
+    .contact-container {
+      flex-direction: column;
+      height: auto;
+      padding: 3rem;
+    }
+  
+    .contact-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-info,
+    .contact-form {
+      width: 100%;
+    }
+  }
+  

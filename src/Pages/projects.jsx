@@ -7,25 +7,25 @@ import Footer from '../Components/footer'
 
 
 const Projects = () => {
-  // List of your projects
+
   const projectData = [
     {
       title: "Gas Stock Management System",
       description:'A comprehensive system designed to manage and monitor gas stock levels, and tracking of inventory, sales, and restocking activities. It provides real-time insights and automates key operations to enhance efficiency in the gas distribution industry.',
-      image: "Gas_project.PNG", // Replace with the correct image path
-      link: "https://example.com/gas-stock", // Replace with the actual project link
+      image: "Gas_project.PNG", 
+      link: "https://example.com/gas-stock", 
     },
     {
       title: "Todo List Application",
       description:  'A sleek and user-friendly task management app built to help users organize their daily activities. Features include task creation, editing, marking as complete, and real-time synchronization.',
-      image: "Todo.PNG", // Replace with the correct image path
-      link: "https://example.com/todo-app", // Replace with the actual project link
+      image: "Todo.PNG", 
+      link: "https://example.com/todo-app", 
     },
     {
       title: "Calculator",
       description:"A simple yet powerful calculator application that supports basic arithmetic operations and a clean, responsive design for both desktop and mobile users.",
-      image: "calculator.PNG", // Replace with the correct image path
-      link: "https://example.com/library-system", // Replace with the actual project link
+      image: "calculator.PNG", 
+      link: "https://example.com/library-system", 
     },
   ];
 
