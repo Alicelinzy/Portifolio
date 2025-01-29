@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  padding-inline: 50px;
+  gap: 125px;
+}
+.about-me-container .about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1900px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.about-me-container .about-me-content .about-me-row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-me-container .about-me-content .about-me-row1 .about-me-image {
+  width: 650px;
+  height: 800px;
+  border-radius: 10%;
+  overflow: hidden;
+  border: 5px solid #f39c12;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-me-container .about-me-content .about-me-row1 .about-me-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-me-container .about-me-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 1200px;
+  height: 400px;
+  border-radius: 60px;
+  padding: 20px;
+  padding-inline: 90px;
+  color: #555;
+}
+.about-me-container .about-me-details .details {
+  display: flex;
+  flex-direction: column;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-family: "Work Sans", sans-serif;
+  gap: 10px;
+}
+.about-me-container .about-me-details .details h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.about-me-container .about-me-details .details h2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.about-me-container .about-me-details .details p {
+  font-size: 30px;
+  line-height: 21.11px;
+  font-weight: 500;
+}
+.about-me-container .about-me-details .details .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 15px;
+  max-width: 200px;
+  height: 100px;
+}
+.about-me-container .about-me-details .details .social-links a {
+  color: #555;
+  font-size: 30px;
+  text-decoration: none;
+  max-width: 400px;
+}
+.about-me-container .about-me-details .details .social-links a:hover {
+  color: #365fe4;
+}
+.about-me-container .about-me-details .details .social-links a svg {
+  vertical-align: middle;
+}
+.about-me-container .about-me-details .details .email {
+  margin-top: 15px;
+  color: #0e0d0d;
+  font-size: 24px;
+  font-weight: 700;
+}
+.about-me-container .about-me-details .details .email p span {
+  font-weight: 500;
+  color: rgb(51, 48, 182);
+}/*# sourceMappingURL=about us.css.map */
