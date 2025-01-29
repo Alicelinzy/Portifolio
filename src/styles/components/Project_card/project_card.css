@@ -2,7 +2,7 @@
 .project-card {
   margin: 20px;
   overflow: hidden;
-  max-width: 450px;
+  max-width: 560px;
   border-radius: 16px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -30,21 +30,9 @@ function Home() {
       <div className='about-container'>
         <div className='about-content'> 
           <div className='about-row1'>
-            <h3>About Me!</h3>
+            <h3>Passionate Full-Stack Developer | Innovating for Impact</h3>
             <p>
-            I am a passionate software developer with a strong <br></br>
-            interest in building innovative and user-friendly solutions. <br></br>
-            My expertise spans full-stack development, with a focus on  <br></br>
-            front-end technologies like React and backend frameworks <br></br> 
-            like Django. cybersecurity and artificial intelligence to create   <br></br>
-            impactful I am constantly exploring new ways to combine my <br></br>
-            interests in software  that solves real-world problems.
-           </p>
-           <p>
-           Beyond coding, I am driven by a desire to empower others and  <br></br>
-           inspire youth to realize the potential of technology in shaping <br></br>
-           the future. My goal is to grow as a full-stack developer and  <br></br>
-           collaborate on projects that make a meaningful difference.<br></br>
+            I specialize in building user-friendly and innovative solutions, focusing on React for frontend and Django for backend. With a strong interest in cybersecurity and AI, I explore ways to create impactful software that solves real-world problems. Beyond coding, I’m committed to empowering others and inspiring youth to leverage technology for a better future.
            </p>
            <a href="/BUGINGO Alice's CV.pdf" download>
            <button className="button-2">Download My CV</button>

@@ -12,14 +12,18 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      max-width: 1200px;
-      gap: 3rem; 
+      max-width: 1800px;
+      gap: 10rem; 
+      margin-top: 100px;
+     
+
     }
   
     .contact-info {
         width: 100%;
         color: #fff;
         font-size: 1.5rem; 
+        height: 100%;
   
       h1 {
         font-size: 2.5rem;
@@ -69,6 +73,7 @@
       padding: 2.5rem; // More padding for balance
       border-radius: 8px;
       width: 100%;
+      height: 100%;
   
       input,
       textarea {
