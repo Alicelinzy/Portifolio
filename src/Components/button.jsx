@@ -2,7 +2,7 @@
 import React from 'react'
 
 // eslint-disable-next-line react/prop-types
-const Buttons = ({ children, className }) => {
+const Buttons = ({ children, className, onClick}) => {
     return (
       <button className={className}>
         {children}

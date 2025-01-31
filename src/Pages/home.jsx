@@ -2,17 +2,17 @@
 import Header from '../Components/header'
 import Footer from '../Components/footer'
 import "../styles/pages/Home/home.css";
-import Buttons from '../Components/button';
-
+// import Buttons from '../Components/button';
+import { useNavigate } from 'react-router-dom';
 import "../styles/pages/About/about us.css"
 function Home() {
+  const navigate = useNavigate(); // ✅ Correctly initialize navigate
 
-  const HandleExploreMoreClick =() => {
-    const AboutSection = document.getElementById('About-Me')
-    if (AboutSection) (
-      AboutSection.scrollIntoView({ behavior:'smooth' })
-    )
+  const handleExploreMoreClick = () => {
+    console.log("Navigating to /about"); // ✅ Debugging log
+    navigate('/about'); // ✅ Navigate to About page
   };
+
   return (
     <div>
     <Header/> 
@@ -21,7 +21,7 @@ function Home() {
         <div className="home-text">
         <h1>Hi, I am BUGINGO Alice Linzy</h1>
        <div className='button'>
-       <Buttons className="button-1" onClick ={HandleExploreMoreClick}>Explore More</Buttons>
+       <button className="button-1" onClick={handleExploreMoreClick}>Explore More</button>
        </div>
         </div>
       </div>

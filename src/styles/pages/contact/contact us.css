@@ -1,37 +1,42 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 .contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 2rem;
-  background-color: #181818;
+  padding-inline: 8rem;
+  background-color: rgb(243, 243, 239);
 }
 .contact-container .contact-content {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1800px;
+  max-width: 1700px;
   gap: 10rem;
-  margin-top: 100px;
 }
 .contact-container .contact-info {
   width: 100%;
-  color: #fff;
-  font-size: 1.5rem;
+  color: black;
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
   height: 100%;
+  gap: 10px;
 }
 .contact-container .contact-info h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
+  line-height: 2;
 }
 .contact-container .contact-info h1 span {
-  color: orange;
+  color: rgb(51, 48, 182);
 }
 .contact-container .contact-info p {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 26px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
 .contact-container .contact-info .contact-details {
   font-size: 1.3rem;
@@ -41,9 +46,9 @@
 }
 .contact-container .contact-info .social-icons {
   margin-top: 1rem;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .contact-container .contact-info .social-icons svg {
   cursor: pointer;
@@ -55,40 +60,56 @@
 .contact-container .contact-form {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
-  background-color: #222;
-  padding: 2.5rem;
+  background-color: #dfdede;
+  padding: 30px;
   border-radius: 8px;
   width: 100%;
-  height: 100%;
+  height: 80%;
+  max-width: 1800px;
+  /* ✅ Error Message Styling */
+}
+.contact-container .contact-form .error-message {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid red;
+  width: 100%;
 }
 .contact-container .contact-form input,
 .contact-container .contact-form textarea {
   width: 100%;
-  padding: 1rem;
-  font-size: 1.2rem;
+  padding: 2rem;
+  font-size: 1.3rem;
   border: none;
   outline: none;
-  background-color: #333;
-  color: #fff;
+  background-color: #cccccc;
   margin-bottom: 1rem;
   border-radius: 5px;
+  resize: none;
 }
-.contact-container .contact-form button {
-  width: 100%;
-  padding: 1rem;
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #fff;
-  background: linear-gradient(90deg, #ff6600, #ff3300);
-  border: none;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
+.contact-container .contact-form .button-3 {
+  background-color: rgb(51, 48, 182);
   border-radius: 5px;
+  width: 190px;
+  height: 60px;
+  margin-left: 14px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 5px;
+  border: none;
 }
-.contact-container .contact-form button:hover {
-  background: linear-gradient(90deg, #ff3300, #ff6600);
+.contact-container .contact-form .button-3:hover {
+  background-color: rgb(199, 197, 197);
+  color: rgb(3, 5, 109);
 }
 
 @media (max-width: 1024px) {

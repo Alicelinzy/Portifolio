@@ -19,6 +19,7 @@ function AboutMe() {
   <div className='about-me-details'>
     <div className='details'> 
     <h1>Ms. BUGINGO Alice Linzy</h1>
+    <p></p>
     <h2>Bachelor’s of Information Technology || University Of Kigali</h2>
     <p>Web Developer,  Virtual Assistant, Interpreter and Author</p>
     <div className='social-links'>
